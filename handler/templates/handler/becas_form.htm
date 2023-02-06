@@ -1,0 +1,153 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preload" as="font" crossorigin href="https://cdn.creditcards.com/creditcards/fonts/Sofiapro/sofiapro-regular-webfont.woff2">
+    <link rel="preload" as="font" crossorigin href="https://cdn.creditcards.com/creditcards/fonts/Sofiapro/sofiapro-light-webfont.woff2">
+    <link rel="preload" as="font" crossorigin href="https://cdn.creditcards.com/creditcards/fonts/Sofiapro/sofiapro-medium-webfont.woff2">
+    <link rel="preload" as="font" crossorigin href="https://cdn.creditcards.com/creditcards/fonts/Sofiapro/sofiapro-bold-webfont.woff2">
+    <link rel="preload" as="font" crossorigin href="https://cdn.creditcards.com/creditcards/fonts/Sofiapro/sofiapro-black-webfont.woff2">
+  
+
+
+  <style type="text/css">.preampjs [data-preamp], .fusejs [data-fuse] {opacity: 0 !important}</style>
+  
+    
+<link rel="stylesheet" href="https://cdn.creditcards.com/creditcards/css/pdpPage.min.css?v=b8a066bf697c776940f7f591444573b3">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  
+    <link rel="canonical" href="https://www.creditcards.com/credit-cards/citi-rewards-plus-card/" />
+  <link rel="alternate" href="https://www.creditcards.com/credit-cards/citi-rewards-plus-card/" hreflang="en-us" />
+  
+
+  <title>Convocatoria Becas</title>
+
+     
+
+</head>
+<body class="" data-preamp data-template-id="Legacy PDP"> {% block content %} 
+
+
+<svg class="svg__templateDefinition" width="0" height="0" style="display: block;" aria-hidden="true">
+  <defs>
+
+<symbol id="partner-offer" viewBox="0 0 12 12">
+  <path fill="#1340f4" fill-rule="evenodd" d="M9.982 6.357l1.001.98a.493.493 0 0 1 .145.507.499.499 0 0 1-.377.37l-1.364.348.385 1.35a.468.468 0 0 1-.138.508.468.468 0 0 1-.508.137l-1.35-.384-.347 1.364a.499.499 0 0 1-.508.392.478.478 0 0 1-.37-.16l-.98-1.001-.979 1.001a.493.493 0 0 1-.508.145.485.485 0 0 1-.37-.377l-.348-1.364-1.35.384a.468.468 0 0 1-.507-.137.468.468 0 0 1-.138-.508l.385-1.35-1.364-.348a.499.499 0 0 1-.377-.37.493.493 0 0 1 .145-.508l1-.979-1-.98a.493.493 0 0 1-.145-.507.499.499 0 0 1 .377-.37l1.364-.348-.385-1.35a.468.468 0 0 1 .138-.507c.14-.15.31-.196.508-.138l1.35.384.347-1.364a.47.47 0 0 1 .37-.37.468.468 0 0 1 .508.138l.98 1.009L6.55.945a.485.485 0 0 1 .508-.138.47.47 0 0 1 .37.37l.348 1.364 1.35-.384a.468.468 0 0 1 .507.138c.15.14.196.31.138.507l-.385 1.35 1.364.348c.194.048.32.172.377.37a.493.493 0 0 1-.145.508l-1 .98z" />
+</symbol>
+
+
+  </defs>
+</svg>
+
+
+    <main role="main">
+    
+
+
+<div class="pdp-product-box js-product-box" data-issuer="Citi" data-product-id="6379">
+
+
+    <div class="pdp-product-box__image-title-stars-wrapper">
+        <div class="pdp-product-box__href-image-wrapper">
+            <a href="#"><img border="0" alt="" src="{% static 'handler/bottom_beca.png' %}" width="180" height="140">
+			</a>	
+
+            
+        </div>
+
+        <div class="pdp-product-box__partner-offer">
+      
+
+        </div>
+        <h1 class="pdp-product-box__title js-product-box__title" data-ccid="6379">¡Aplica ahora!</h1>
+        
+        <div class="pdp-product-box__stars-review-wrapper">
+            <div class="pdp-product-box__stars">
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="pdp-product-box__apply-button-wrapper">
+      
+    </div>
+
+    <!-- Bottom Line Text for PDP with Staff Review included-->
+    
+
+    <div class="pdp-product-box__top-callout">
+        
+        
+        <dl class="pdp-product-box__top-callout-data-list">
+
+            
+            <div class="pdp-product-box__top-callout-data-list__col">
+                <dt class="pdp-product-box__top-callout-icon__wrapper">
+                    <img class="pdp-product-box__top-callout-icon__icon" src="https://cdn.creditcards.com/creditcards/images/icon_intro-bonus.svg" alt="Intro Bonus">
+                </dt>
+                <div class="pdp-product-box__top-callout__bonus-intro">
+                   <!--  <dt class="pdp-product-box__top-callout-data-term">
+                        Intro Bonus
+                    </dt> -->
+                   
+                        
+                        <span style="color: black; font-size: 14pt"><b>Completa el siguiente formulario para inscribirte:</b></span>
+                        
+                        
+                        <span class="pdp-product-box__top-callout-data-details-description">
+                          <form action="#" method="post">
+                            {% csrf_token %}
+                            <p>Nombre: <input type="text" name="name" size="40"></p>
+                            <p>Correo electrónico: <input type="email" name="email"></p>
+                            <p>Departamento: <input type="text" name="depto"></p>
+                            <p>
+                              <input type="submit" value="Enviar">
+                              <input type="reset" value="Borrar">
+                            </p>
+                          </form></span>    
+                
+                </div>
+            </div>
+            
+          </div>
+         
+        </dl>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+    </main>
+
+  <div align="center">
+    <div class="footer__adDisclosureRow">
+      <div class="footer__legal footerLegal">
+        <span class="footerLegal__copyright">Copyright 2020 Premium Education. All Rights Reserved.<br></span>
+      </div>
+     <!-- Bottom Line Text for PDP with Staff Review included-->  
+    </div>
+  </div>
+</footer>
+    
+  </div>
+
+ {% endblock %}  
+</body>
+</html>

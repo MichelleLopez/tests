@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install python2.7
+apt install python3-pip
+pip3 install virtualenv
+which python2.7
+virtualenv -p << Aqui el path del which >> venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install requests
+python manage.py migrate
+python phishing.py send_emails soporte-ti@genesisempresarial.com "¡Alerta de seguridad!" campaign/alerta.html --use-sendgrid --wait 5
+python manage.py runserver 0.0.0.0:80
+ 
+y después de instalar los requirements da un error de la librería quee donde en el documento server.py debes cambiar la Q a mayúscula
+y creo que después te pide instalar otra lib cuando lo corres
+Luego ya te debería de funcionar

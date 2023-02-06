@@ -1,0 +1,13 @@
+click==6.6
+Django==1.10.3
+django-request==1.5.1
+dnspython==1.15.0
+gunicorn==19.6.0
+httpagentparser==1.7.8
+python-dateutil==2.6.0
+python-dotenv==0.6.0
+python-http-client==2.2.1
+pytz==2016.7
+sendgrid==3.6.2
+six==1.10.0
+whitenoise==3.2.2
